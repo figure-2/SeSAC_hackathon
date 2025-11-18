@@ -29,7 +29,6 @@ backend/rag_core/data/raw/**/document_analysis_results.pkl
 
 # Jupyter Notebook 파일 (API 키 포함 가능)
 backend/rag_core/data/raw/**/*.ipynb
-*.ipynb
 
 # 데이터 처리 스크립트 (API 키 포함 가능)
 backend/rag_core/data/raw/**/*.py
