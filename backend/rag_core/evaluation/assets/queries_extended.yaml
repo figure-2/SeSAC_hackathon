@@ -1,0 +1,51 @@
+# 확장 정성 평가 질의 세트
+queries:
+  - id: ex_001
+    question: 임진왜란은 언제 발발했어?
+    difficulty: easy
+    qualitative: true
+
+  - id: ex_002
+    question: 세종대왕이 한글을 반포한 해는 언제야?
+    difficulty: medium
+    qualitative: true
+
+  - id: kr_001
+    question: 태조 왕건이 29명의 부인을 맞이한 이유는 무엇인가요?
+    difficulty: medium
+    qualitative: true
+
+  - id: kr_002
+    question: 궁예가 나주를 점령하려고 한 이유는 무엇인가요?
+    difficulty: hard
+    qualitative: true
+
+  - id: hist_003
+    question: 광개토대왕이 영토를 확장한 주요 지역은 어디인가요?
+    difficulty: medium
+    qualitative: true
+
+  - id: hist_004
+    question: 명량해전에서 이순신 장군이 사용한 핵심 전략은 무엇이었나요?
+    difficulty: medium
+    qualitative: true
+
+  - id: hist_005
+    question: 세종이 집현전을 설치한 목적은 무엇이었어?
+    difficulty: medium
+    qualitative: true
+
+  - id: hist_006
+    question: 조선 후기 실학이 대두된 배경은 무엇인가요?
+    difficulty: hard
+    qualitative: true
+
+  - id: hist_007
+    question: 정조가 수원 화성을 축조한 이유는 무엇인가요?
+    difficulty: medium
+    qualitative: true
+
+  - id: hist_008
+    question: 발해가 멸망한 이후 고구려 유민들은 어떤 움직임을 보였나요?
+    difficulty: hard
+    qualitative: true

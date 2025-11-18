@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-11-05T05:47:04.750619Z",
+  "config_path": "/home/pencilfoxs/History_Docent_PJ_gemini/env.yaml",
+  "queries_path": "/home/pencilfoxs/PJ/Chat/eval/queries.yaml",
+  "num_queries": 4,
+  "llm_model": "models/gemini-pro",
+  "parameters": {
+    "retrieve_k": 20,
+    "rerank_k": 7
+  }
+}

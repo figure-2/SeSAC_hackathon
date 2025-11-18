@@ -1,0 +1,37 @@
+# 대표 정량 평가 질의 템플릿
+# 각 항목은 고유한 식별자(id), 질문(question),
+# 기대하는 문서 ID(ground_truth_context_id)와 선택적으로 기대 답변(expected_answer)을 포함합니다.
+# 필요에 따라 difficulty, tags 등을 자유롭게 확장할 수 있습니다.
+queries:
+  - id: ex_001
+    question: 임진왜란은 언제 발발했어?
+    ground_truth_context_id: 고려편_00000
+    expected_answer: 임진왜란은 1592년 4월 13일에 발발했다.
+    difficulty: easy
+    tags: [임진왜란, 조선, 전쟁]
+
+  - id: ex_002
+    question: 세종대왕이 한글을 반포한 해는 언제야?
+    ground_truth_context_id: 고려편_00001
+    expected_answer: 세종대왕은 1446년에 한글을 반포했다.
+    difficulty: medium
+    tags: [세종, 훈민정음]
+
+  - id: kr_001
+    question: 태조 왕건이 29명의 부인을 맞이한 이유는 무엇인가요?
+    ground_truth_context_id: 고려편_00002
+    expected_answer: 태조 왕건이 29명의 부인을 맞이한 이유는 지방 호족들과의 혼인 관계를 통해 연합 세력을 구축하고 국가의 기반을 다지기 위함이었습니다.
+    difficulty: medium
+    tags: [왕건, 고려, 호족]
+    qualitative: true
+
+  - id: kr_002
+    question: 궁예가 나주를 점령하려고 한 이유는 무엇인가요?
+    ground_truth_context_id: 고려편_00005
+    expected_answer: 궁예가 나주를 점령하려 한 이유는 나주가 중국과의 해상 무역이 가능한 경제적, 외교적 요충지였으며, 후백제를 견제할 수 있는 전략적 위치였기 때문입니다.
+    difficulty: hard
+    tags: [궁예, 왕건, 나주, 후백제]
+    qualitative: true
+
+# 평가 스크립트는 상위 `queries` 목록을 순회하며 지표를 계산합니다.
+# 실제 환경에 맞게 chunk ID나 기대 답변을 채워 넣어 사용하세요.

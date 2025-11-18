@@ -1,0 +1,127 @@
+[
+  {
+    "timestamp": "2025-11-03T13:56:55.606484Z",
+    "reranker": "/home/pencilfoxs/History_Docent_PJ_gemini/8_Finetune_Reranker/output/finetuned_reranker_20251103_124421",
+    "results": [
+      {
+        "Model": "Baseline",
+        "Collection": "jhgan_ko-sroberta-multitask",
+        "EmbeddingModel": "jhgan/ko-sroberta-multitask",
+        "Retrieval Hit Rate": 0.0,
+        "Retrieval MRR": 0.0,
+        "Rerank Hit Rate": 0.0,
+        "Rerank MRR": 0.0
+      },
+      {
+        "Model": "Finetuned",
+        "Collection": "finetuned_embedding_20251103",
+        "EmbeddingModel": "/home/pencilfoxs/History_Docent_PJ_gemini/9_Finetune_Embedding/output/finetuned_embedding_20251103_125043",
+        "Retrieval Hit Rate": 0.5796344647519582,
+        "Retrieval MRR": 0.3632342619567681,
+        "Rerank Hit Rate": 0.5300261096605744,
+        "Rerank MRR": 0.4449956483899043
+      }
+    ],
+    "eval_dataset": "/home/pencilfoxs/History_Docent_PJ_gemini/7_Evaluation/eval_qa_dataset.json"
+  },
+  {
+    "timestamp": "2025-11-03T13:59:34.950233Z",
+    "reranker": "/home/pencilfoxs/History_Docent_PJ_gemini/8_Finetune_Reranker/output/finetuned_reranker_20251103_124421",
+    "results": [
+      {
+        "Model": "Baseline",
+        "Collection": "jhgan_ko-sroberta-multitask",
+        "EmbeddingModel": "jhgan/ko-sroberta-multitask",
+        "Retrieval Hit Rate": 0.0,
+        "Retrieval MRR": 0.0,
+        "Rerank Hit Rate": 0.0,
+        "Rerank MRR": 0.0
+      },
+      {
+        "Model": "Finetuned",
+        "Collection": "finetuned_embedding_20251103",
+        "EmbeddingModel": "/home/pencilfoxs/History_Docent_PJ_gemini/9_Finetune_Embedding/output/finetuned_embedding_20251103_125043",
+        "Retrieval Hit Rate": 0.5718015665796344,
+        "Retrieval MRR": 0.36313479658315134,
+        "Rerank Hit Rate": 0.5169712793733682,
+        "Rerank MRR": 0.4336814621409922
+      }
+    ],
+    "eval_dataset": "/home/pencilfoxs/History_Docent_PJ_gemini/7_Evaluation/eval_qa_dataset.json"
+  },
+  {
+    "timestamp": "2025-11-03T14:13:01.790460Z",
+    "reranker": "/home/pencilfoxs/History_Docent_PJ_gemini/8_Finetune_Reranker/output/finetuned_reranker_20251103_124421",
+    "results": [
+      {
+        "Model": "Baseline",
+        "Collection": "jhgan_ko-sroberta-multitask",
+        "EmbeddingModel": "jhgan/ko-sroberta-multitask",
+        "Retrieval Hit Rate": 0.5848563968668408,
+        "Retrieval MRR": 0.3682628000616183,
+        "Rerank Hit Rate": 0.5326370757180157,
+        "Rerank MRR": 0.44991296779808526
+      },
+      {
+        "Model": "Finetuned",
+        "Collection": "finetuned_embedding_20251103",
+        "EmbeddingModel": "/home/pencilfoxs/History_Docent_PJ_gemini/9_Finetune_Embedding/output/finetuned_embedding_20251103_125043",
+        "Retrieval Hit Rate": 0.587467362924282,
+        "Retrieval MRR": 0.3706854944767103,
+        "Rerank Hit Rate": 0.5352480417754569,
+        "Rerank MRR": 0.4502175805047868
+      }
+    ],
+    "eval_dataset": "/home/pencilfoxs/History_Docent_PJ_gemini/7_Evaluation/eval_qa_dataset.json"
+  },
+  {
+    "timestamp": "2025-11-04T02:05:34.851757Z",
+    "reranker": "/home/pencilfoxs/History_Docent_PJ_gemini/8_Finetune_Reranker/output/finetuned_reranker_20251103_124421",
+    "results": [
+      {
+        "Model": "Baseline",
+        "Collection": "jhgan_ko-sroberta-multitask",
+        "EmbeddingModel": "jhgan/ko-sroberta-multitask",
+        "Retrieval Hit Rate": 0.5848563968668408,
+        "Retrieval MRR": 0.3682628000616183,
+        "Rerank Hit Rate": 0.5326370757180157,
+        "Rerank MRR": 0.44991296779808526
+      },
+      {
+        "Model": "Finetuned",
+        "Collection": "finetuned_embedding_20251103",
+        "EmbeddingModel": "/home/pencilfoxs/History_Docent_PJ_gemini/9_Finetune_Embedding/output/finetuned_embedding_20251103_125043",
+        "Retrieval Hit Rate": 0.3968668407310705,
+        "Retrieval MRR": 0.26981664579383824,
+        "Rerank Hit Rate": 0.3629242819843342,
+        "Rerank MRR": 0.3144038294168843
+      }
+    ],
+    "eval_dataset": "/home/pencilfoxs/History_Docent_PJ_gemini/7_Evaluation/eval_qa_dataset.json"
+  },
+  {
+    "timestamp": "2025-11-04T02:18:49.368221Z",
+    "reranker": "/home/pencilfoxs/History_Docent_PJ_gemini/8_Finetune_Reranker/output/finetuned_reranker_20251103_124421",
+    "results": [
+      {
+        "Model": "Baseline",
+        "Collection": "jhgan_ko-sroberta-multitask",
+        "EmbeddingModel": "jhgan/ko-sroberta-multitask",
+        "Retrieval Hit Rate": 0.5639686684073107,
+        "Retrieval MRR": 0.36102342883862426,
+        "Rerank Hit Rate": 0.5117493472584856,
+        "Rerank MRR": 0.431331592689295
+      },
+      {
+        "Model": "Finetuned",
+        "Collection": "finetuned_embedding_20251103",
+        "EmbeddingModel": "/home/pencilfoxs/History_Docent_PJ_gemini/9_Finetune_Embedding/output/finetuned_embedding_20251103_125043",
+        "Retrieval Hit Rate": 0.5900783289817232,
+        "Retrieval MRR": 0.37107600909698996,
+        "Rerank Hit Rate": 0.5378590078328982,
+        "Rerank MRR": 0.45282854656222804
+      }
+    ],
+    "eval_dataset": "/home/pencilfoxs/History_Docent_PJ_gemini/7_Evaluation/eval_qa_dataset.json"
+  }
+]

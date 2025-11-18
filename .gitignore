@@ -21,23 +21,23 @@ env
 # macOS
 .DS_Store
 
-# 데이터 파일 (대용량)
+# 데이터 파일 
 backend/rag_core/data/raw/**/*.png
 backend/rag_core/data/raw/**/*.pdf
 backend/rag_core/data/raw/**/*.pkl
 backend/rag_core/data/raw/**/document_analysis_results.pkl
 
-# Jupyter Notebook 파일 (API 키 포함 가능)
+# Jupyter Notebook 파일 
 backend/rag_core/data/raw/**/*.ipynb
 
-# 데이터 처리 스크립트 (API 키 포함 가능)
+# 데이터 처리 스크립트 
 backend/rag_core/data/raw/**/*.py
 
-# 벡터 DB (재생성 가능)
+# 벡터 DB 
 backend/rag_core/vector_db/db/
 
-# 파인튜닝 모델 파일 (재생성 가능, 용량 매우 큼)
+# 파인튜닝 모델 파일 
 backend/rag_core/finetuning/output/
 
-# 임베딩 파일 (재생성 가능)
-backend/rag_core/embedding/output/
+# 임베딩 파일 
+backend/rag_core/embedding/output/ 

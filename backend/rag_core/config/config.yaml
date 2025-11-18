@@ -1,0 +1,37 @@
+# 실험 환경 및 핵심 자산 정보 (초안)
+
+# --- 데이터셋 경로 ---
+TRAIN_QA_DATASET: "7_Evaluation/train_qa_dataset.json"
+EVAL_QA_DATASET: "7_Evaluation/eval_qa_dataset.json"
+
+# --- 모델 경로 ---
+BASELINE_EMBEDDING_MODEL: "jhgan/ko-sroberta-multitask"
+BASELINE_RERANKER_MODEL: "BAAI/bge-reranker-base"
+BASELINE_COLLECTION_NAME: "jhgan_ko-sroberta-multitask"
+FINETUNED_EMBEDDING_MODEL: "2_finetuning/output/finetuned_embedding_20251103_125043"
+FINETUNED_RERANKER_MODEL: "2_finetuning/output/finetuned_reranker_20251103_124421"
+FINETUNED_COLLECTION_NAME: "finetuned_embedding_20251103"
+# LLM 설정
+LLM_API_ENV_PATH: "config/api_keys.env"
+GEMINI_MODEL_NAME: "models/gemini-2.5-pro"
+
+# --- 임베딩 및 벡터 DB 설정 ---
+EMBEDDING_OUTPUT_DIR: "3_embedding/output"
+VECTOR_DB_DIR: "4_vector_db/db"
+
+# --- 외부(HJ) 벡터 DB 설정 ---
+HJ_VECTOR_DB_DIR: "/home/pencilfoxs/History_Docent_PJ_HJ/Youtube_Script_1105/4 Youtube_embbeding_vectorDB/chroma_store_truehybrid"
+HJ_COLLECTION_NAME: "korean_history_chunks"
+HJ_EMBEDDING_MODEL: "BAAI/bge-m3"
+HJ_RERANKER_MODEL: "cross-encoder/ms-marco-MiniLM-L-12-v2"
+
+# --- 검색 및 리랭크 기본값 ---
+RETRIEVE_K: "20"
+RERANK_K: "7"
+INTEGRATED_RERANK_TOPK: "5"
+HJ_RETRIEVE_K: "20"
+GEMINI_RETRIEVE_K: "20"
+GEMINI_CHUNK_JSON: "1_chunking/output/all_chunks.json"
+
+# --- 평가 로그 ---
+EVALUATION_LOG_FILE: "7_Evaluation/output/evaluation_history.json"

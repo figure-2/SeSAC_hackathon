@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-05T01:57:47.483299Z",
+  "config_path": "/home/pencilfoxs/History_Docent_PJ_gemini/env.yaml",
+  "queries_path": "/home/pencilfoxs/PJ/Chat/eval/queries.yaml",
+  "num_queries": 4,
+  "parameters": {
+    "retrieve_k": 20,
+    "rerank_k": 7
+  }
+}
